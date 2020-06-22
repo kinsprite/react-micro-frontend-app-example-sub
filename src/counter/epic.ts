@@ -6,7 +6,7 @@ import { CounterAction } from './actionCreators';
 const counterEpic : Epic<CounterAction, CounterAction> = (action$) => action$.pipe(
   ofType('INCREMENT_EPIC'),
   delay(1000), // Asynchronously wait 1000ms then continue
-  mapTo({ type: 'INCREMENT' }),
+  mapTo({ type: 'INCREMENT_SUB' }),
 );
 
 export default counterEpic;

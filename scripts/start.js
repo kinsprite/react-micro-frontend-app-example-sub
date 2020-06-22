@@ -10,7 +10,13 @@ function start() {
   // process.env.SPLIT_CHUNKS = 'true';
   // process.env.RUNTIME_CHUNK = 'true';
 
-  scripts.runWebpack(scripts.envDevelopment, scripts.helper.webpackConfigCallback);
+  scripts.runWebpack(scripts.envDevelopment, (config) => {
+    const newConfig = scripts.helper.webpackConfigCallback(config);
+    const key = Object.keys(newConfig.entry)[0];
+    // Include parent route's project to develop easy
+    newConfig.entry[key] = ['react-micro-frontend-app-example', newConfig.entry[key]];
+    return newConfig;
+  });
 }
 
 start();

@@ -23,11 +23,11 @@ export function thunkAction(type: string) : CounterThunkAction {
   };
 }
 
-export const onRest = () : CounterAction => action('RESET');
-export const onIncrement = () : CounterAction => action('INCREMENT');
-export const onDecrement = () : CounterAction => action('DECREMENT');
-export const onIncrementIfOdd = () : CounterAction => action('INCREMENT_IF_ODD');
-export const onIncrementAsync = () : CounterAction => action('INCREMENT_ASYNC');
-export const onIncrementThunk = () : CounterThunkAction => thunkAction('INCREMENT');
+export const onRest = () : CounterAction => action('RESET_SUB');
+export const onIncrement = () : CounterAction => action('INCREMENT_SUB');
+export const onDecrement = () : CounterAction => action('DECREMENT_SUB');
+export const onIncrementIfOdd = () : CounterAction => action('INCREMENT_SUB_IF_ODD');
+export const onIncrementAsync = () : CounterAction => action('INCREMENT_SUB_ASYNC');
+export const onIncrementThunk = () : CounterThunkAction => thunkAction('INCREMENT_SUB');
 
 export const onIncrementEpic = () : CounterAction => action('INCREMENT_EPIC');

@@ -29,7 +29,7 @@ const Counter : React.FC<any> = ({
     {' '}
     <button type="button" onClick={onIncrementAsync}>Increment async</button>
     <button type="button" onClick={onIncrementThunk}>Increment thunk</button>
-    <button type="button" onClick={onIncrementEpic}>Increment Epic</button>
+    <button type="button" onClick={onIncrementEpic}>Increment Epic (Both)</button>
   </p>
 );
 
