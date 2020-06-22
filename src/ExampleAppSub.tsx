@@ -5,6 +5,7 @@ import {
 
 import styles from './ExampleAppSub.module.css';
 import { CounterContainer } from './counter';
+import LazyComponent from './lazyComponent';
 
 function ExampleApp() : JSX.Element {
   return (
@@ -24,6 +25,7 @@ function ExampleApp() : JSX.Element {
         </li>
       </ul>
       <CounterContainer />
+      <LazyComponent />
     </div>
   );
 }
