@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { CounterActionCreator, CounterThunkActionCreator } from './actionCreators';
+import styles from './Counter.module.css';
 
 interface CounterProps {
   counter: number,
@@ -21,15 +22,15 @@ const Counter : React.FC<any> = ({
     {counter}
     {' '}
     times
-    <button type="button" onClick={onIncrement}>+</button>
+    <button type="button" className={styles.btn} onClick={onIncrement}>+</button>
     {' '}
-    <button type="button" onClick={onDecrement}>-</button>
+    <button type="button" className={styles.btn} onClick={onDecrement}>-</button>
     {' '}
-    <button type="button" onClick={onIncrementIfOdd}>Increment if odd</button>
+    <button type="button" className={styles.btn} onClick={onIncrementIfOdd}>Increment if odd</button>
     {' '}
-    <button type="button" onClick={onIncrementAsync}>Increment async</button>
-    <button type="button" onClick={onIncrementThunk}>Increment thunk</button>
-    <button type="button" onClick={onIncrementEpic}>Increment Epic (Both)</button>
+    <button type="button" className={styles.btn} onClick={onIncrementAsync}>Increment async</button>
+    <button type="button" className={styles.btn} onClick={onIncrementThunk}>Increment thunk</button>
+    <button type="button" className={styles.btn} onClick={onIncrementEpic}>Increment Epic (Both)</button>
   </p>
 );
 
