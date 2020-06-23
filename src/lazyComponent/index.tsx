@@ -9,27 +9,24 @@ function LazyComponent(props?: {[key:string]: any}) : JSX.Element {
 
   useEffect(() => {
     let mounted = true;
-    if (once === 1) {
-      import('./LazyInfo').then((c) => {
-        if (mounted) {
-          setResult({
-            loaded: 1,
-            component: c.default,
-          });
-        }
-      }, () => {
-        if (mounted) {
-          setResult({
-            loaded: 2,
-            component: null,
-          });
-        }
-      });
-    }
 
-    return () => {
-      mounted = false;
-    };
+    import('./LazyInfo').then((c) => {
+      if (mounted) {
+        setResult({
+          loaded: 1,
+          component: c.default,
+        });
+      }
+    }, () => {
+      if (mounted) {
+        setResult({
+          loaded: 2,
+          component: null,
+        });
+      }
+    });
+
+    return () => { mounted = false; };
   }, [once]);
 
   return result.component
