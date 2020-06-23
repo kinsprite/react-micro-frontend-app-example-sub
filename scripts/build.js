@@ -12,6 +12,7 @@ function build() {
   // process.env.REACT_MICRO_FRONTEND_SHORT = 'rmf';
   process.env.SPLIT_CHUNKS = 'false';
   process.env.RUNTIME_CHUNK = 'false';
+  process.env.POSTCSS_PRESET_ENV_STAGE = '1'; // default '3'
 
   scripts.runWebpack(scripts.envProduction, (config) => ({
     ...config,
