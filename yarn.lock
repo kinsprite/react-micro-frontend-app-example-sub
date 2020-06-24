@@ -6143,20 +6143,20 @@ react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-i
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-react-micro-frontend-app-example@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/react-micro-frontend-app-example/-/react-micro-frontend-app-example-0.3.1.tgz#eec8cf738868642384fbe568c47581d0b0110540"
-  integrity sha512-1R6A+KLhgJOmmWYto+UZnfrS7UbvLjqeRWF7ks3EhaIbbt+8sq+hVE5fPQQMsyXc5WNfkk/nTmfultyGDVkiMQ==
+react-micro-frontend-app-example@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/react-micro-frontend-app-example/-/react-micro-frontend-app-example-0.3.2.tgz#1e42806bac661c8e2eb9d91bcaf20ca83ef3a5c4"
+  integrity sha512-LpJLTTWXY4NwH2PhN8LATdxRF79AWue5RFGo5SHqSdqM/FdGQbbdQzI/YDevJ7XHLNcWZ4zm2sdGaSyZ7gPMzA==
 
-react-micro-frontend-framework@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/react-micro-frontend-framework/-/react-micro-frontend-framework-0.5.0.tgz#58e938d7465c285c54072be76210e4a9fd1f7043"
-  integrity sha512-JfIqW3QAq3Y11r/OgnV0d0UaMPwuysztYkUYw45+i0LrP4rxB9VadI2YKH/RtZrgV46J1RCapJ3wJmiRo46azQ==
+react-micro-frontend-framework@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-micro-frontend-framework/-/react-micro-frontend-framework-1.0.0.tgz#18cd234bd74a8f261db14891e525f85762fea9b2"
+  integrity sha512-RIpq2FlpLjbCJDRhK/lH+51PCxeVqnqKy+Echi3WDhfJIgBFPQYbjMATGMarkRUsVAWmLnfAqopu/yLCSXTfAQ==
 
-react-micro-frontend-scripts@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-micro-frontend-scripts/-/react-micro-frontend-scripts-2.1.0.tgz#341d40bddff5e7cdd5889d10fedcf8fa92e55f30"
-  integrity sha512-DNz6WT4+fpljAC68BGXwLbmffbWzge2pOBplguWuygw/7sMKn+QQqoQGiJ3pyLPvmHLWYaao+OrAQKvh5eEoNA==
+react-micro-frontend-scripts@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-micro-frontend-scripts/-/react-micro-frontend-scripts-2.2.0.tgz#d52dfb830b48fb0186dc527cf9869c2ff4739de2"
+  integrity sha512-esbG8OnTLE5TlB0ITMwbmCWxacehynQkC0OdBm3JXyaRMS2iGB4P8RVEuPH46Jvkd/xlfvbAYLNszh3v6Ud2Qw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^3.3.0"
     "@typescript-eslint/parser" "^3.3.0"
