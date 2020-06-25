@@ -8,3 +8,29 @@
     background-color: rgb(75, 125, 138);
   }
 }
+
+.content {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0 solid;
+  animation: typing 8s steps(40),
+             caret 1s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+    border-right-width: 0.05em;
+  }
+  99% {
+    width: 40ch;
+    border-right-width: 0.05em;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
