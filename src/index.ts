@@ -27,7 +27,7 @@ const appEpics = [
 ];
 
 registerApp('app-example-sub', {
-  component: ExampleAppSub,
+  components: { default: ExampleAppSub },
   reducer: combineReducers(appReducers),
   saga: appSagas,
   epic: combineEpics(...appEpics),

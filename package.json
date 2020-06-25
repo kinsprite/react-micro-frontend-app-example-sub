@@ -1,6 +1,6 @@
 {
   "name": "react-micro-frontend-app-example-sub",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React micro frontend app-example-sub",
   "main": "index.js",
   "module": "src/index.ts",
@@ -13,8 +13,10 @@
   },
   "rmfManifest": {
     "dependencies": [],
-    "routes": ["/app-example/sub"],
-    "render": "app-example-sub"
+    "renders": [
+      {"renderId": "app-example-sub", "routePath": "/app-example/sub", "componentKey": "default"},
+      {"renderId": "root", "routePath": "/sub-at-root", "componentKey": "default"}
+    ]
   },
   "scripts": {
     "start": "node scripts/start.js",
@@ -43,7 +45,7 @@
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-dom": "^16.13.1",
-    "react-micro-frontend-framework": "^1.0.0",
+    "react-micro-frontend-framework": "^2.0.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
@@ -63,8 +65,8 @@
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-dom": "^16.13.1",
-    "react-micro-frontend-app-example": "^0.3.2",
-    "react-micro-frontend-framework": "^1.0.0",
+    "react-micro-frontend-app-example": "^1.0.0",
+    "react-micro-frontend-framework": "^2.0.0",
     "react-micro-frontend-scripts": "^2.2.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
