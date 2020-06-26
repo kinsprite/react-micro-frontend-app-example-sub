@@ -6,7 +6,7 @@
     apps: [
       {
         id: 'app-example',
-        dependencies: ['echart', 'app1'], // NOT implement yet
+        dependencies: [],
         entries: [
           // REMOVE the current app's entries in development
           // '/rmf-app-example/658c5f91/app-example-a200b003.css',
@@ -16,7 +16,7 @@
       },
       {
         id: 'app-example-sub',
-        dependencies: ['echart', 'app1'], // NOT implement yet
+        dependencies: [],
         entries: [
           // REMOVE the current app's entries in development
           // '/rmf-app-example-sub/658c5f91/app-example-sub-a200b003.css',

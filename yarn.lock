@@ -6143,15 +6143,15 @@ react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-i
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-react-micro-frontend-app-example@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-micro-frontend-app-example/-/react-micro-frontend-app-example-1.0.0.tgz#413835a86873a011c88191f14cafad99af5d8983"
-  integrity sha512-a32cVQCVqvYICq2/xx01g8SxH0aJFiUlSlNR9NU0W7/t1hDnRkt/uOnxIRq8V6WWvTVHvntTKGuGveFWEgFGbw==
+react-micro-frontend-app-example@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-micro-frontend-app-example/-/react-micro-frontend-app-example-1.1.0.tgz#e267b2a0fe85fa48c1ace9c9ea27d25fc7da6815"
+  integrity sha512-Z91k5b/JVTpR/7czX6JqiJ9MYC1g/9PZraYD1xYKdfvjstX9WFCOPksUwp4GKBo1wImLxlEHqWT/wJoqqTzqxg==
 
-react-micro-frontend-framework@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-micro-frontend-framework/-/react-micro-frontend-framework-2.0.0.tgz#12ee7465d86d1d607f4dac87015c9ac1097ce4c3"
-  integrity sha512-aUGa10Ro8C6GhaxYgVaKRVC3H+3MlwYxfoDuqDlM3c+UD6nFvNsQ0tztGeThP7gnCowqSG+UlnyLYmpecYPjoA==
+react-micro-frontend-framework@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-micro-frontend-framework/-/react-micro-frontend-framework-2.1.0.tgz#53ed62170d919aea9ea83d21dcec347da5631411"
+  integrity sha512-Z2rgabo1F5wJqkkrJj+MRIDZVYd6i1ovdtswkH7QL67yVJ3M/Bl/L2fC0mDVF1p18sWF9//Opqi71CKf3KY8Yg==
 
 react-micro-frontend-scripts@^2.2.0:
   version "2.2.0"
