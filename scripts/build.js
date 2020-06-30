@@ -8,6 +8,7 @@ function build() {
   // process.env.MINIMIZE_IN_PRODUCTION = 'true';
 
   // --- ENV for ALL ---
+  process.env.ENSURE_NO_EXPORTS = 'true';
   // process.env.IMAGE_INLINE_SIZE_LIMIT = '1000';
   // process.env.REACT_MICRO_FRONTEND_SHORT = 'rmf';
   process.env.SPLIT_CHUNKS = 'false';
