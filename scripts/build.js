@@ -2,6 +2,7 @@ const scripts = require('react-micro-frontend-scripts');
 
 function build() {
   // --- ENV for 'production' only ---
+  process.env.PUBLIC_DISABLE_REVISION = 'true';
   process.env.PUBLIC_ROOT_URL = '/';
   // process.env.GENERATE_SOURCEMAP = 'true';
   // process.env.INLINE_RUNTIME_CHUNK = 'true';

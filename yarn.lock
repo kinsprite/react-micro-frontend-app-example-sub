@@ -6153,10 +6153,10 @@ react-micro-frontend-framework@^2.3.0:
   resolved "https://registry.yarnpkg.com/react-micro-frontend-framework/-/react-micro-frontend-framework-2.3.0.tgz#1c07ed926a513b6763281d8a147a37f5a60e55b4"
   integrity sha512-rzZZ8H5cSOX/2AEbScx/0GYZn1XuOOZtcgqZadOmJG3K7wPdgS5XZbZM8+WM8C/qiM2ZtaIWtM7XIgYt91CP7w==
 
-react-micro-frontend-scripts@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/react-micro-frontend-scripts/-/react-micro-frontend-scripts-2.4.0.tgz#c3aacc261b585199ab140774ff6c44c3f14ea89a"
-  integrity sha512-7QBwh/Ya1WDgMxkUUFcklyZ7MHomTPLhO2eMxtZwxhT60FX5rlzZ+i+dh64YPryNLf7fQ//BicYoI+1e6ZpflA==
+react-micro-frontend-scripts@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react-micro-frontend-scripts/-/react-micro-frontend-scripts-2.5.0.tgz#c4b6a4d1ddf53460f30b536119024a03ecee4887"
+  integrity sha512-bN0XYlLrU47VPhNv5KonF10ayt+Rc8GIo16rQ5YHTYonWc5/nCdqIEr9vlhfUKj8bD8D6kt6xUnWWLKckY2w9A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^3.3.0"
     "@typescript-eslint/parser" "^3.3.0"
