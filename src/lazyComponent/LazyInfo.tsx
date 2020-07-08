@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './LazyInfo.module.pcss';
+import styles from './LazyInfo.module.scss';
 
 function LazyInfo() : JSX.Element {
   return (

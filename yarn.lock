@@ -1287,6 +1287,21 @@ chardet@^0.7.0:
   resolved "https://registry.npm.taobao.org/chardet/download/chardet-0.7.0.tgz?cache=0&sync_timestamp=1588893413176&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchardet%2Fdownload%2Fchardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
 
+"chokidar@>=2.0.0 <4.0.0", chokidar@^3.3.0, chokidar@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.npm.taobao.org/chokidar/download/chokidar-3.4.0.tgz?cache=0&sync_timestamp=1587911196018&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-3.4.0.tgz#b30611423ce376357c765b9b8f904b9fba3c0be8"
+  integrity sha1-swYRQjzjdjV8dlubj5BLn7o8C+g=
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.4.0"
+  optionalDependencies:
+    fsevents "~2.1.2"
+
 chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.npm.taobao.org/chokidar/download/chokidar-2.1.8.tgz?cache=0&sync_timestamp=1587911196018&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -1305,21 +1320,6 @@ chokidar@^2.1.8:
     upath "^1.1.1"
   optionalDependencies:
     fsevents "^1.2.7"
-
-chokidar@^3.3.0, chokidar@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.npm.taobao.org/chokidar/download/chokidar-3.4.0.tgz?cache=0&sync_timestamp=1587911196018&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-3.4.0.tgz#b30611423ce376357c765b9b8f904b9fba3c0be8"
-  integrity sha1-swYRQjzjdjV8dlubj5BLn7o8C+g=
-  dependencies:
-    anymatch "~3.1.1"
-    braces "~3.0.2"
-    glob-parent "~5.1.0"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.4.0"
-  optionalDependencies:
-    fsevents "~2.1.2"
 
 chownr@^1.1.1:
   version "1.1.4"
@@ -4069,6 +4069,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
+klona@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/klona/-/klona-1.1.2.tgz#a79e292518a5a5412ec8d097964bff1571a64db0"
+  integrity sha512-xf88rTeHiXk+XE2Vhi6yj8Wm3gMZrygGdKjJqN8HkV+PwF/t50/LdAKHoHpPcxFAlmQszTZ1CugrK25S7qDRLA==
+
 language-subtag-registry@~0.3.2:
   version "0.3.20"
   resolved "https://registry.npm.taobao.org/language-subtag-registry/download/language-subtag-registry-0.3.20.tgz#a00a37121894f224f763268e431c55556b0c0755"
@@ -6143,20 +6148,20 @@ react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-i
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-react-micro-frontend-app-example@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-micro-frontend-app-example/-/react-micro-frontend-app-example-1.1.0.tgz#e267b2a0fe85fa48c1ace9c9ea27d25fc7da6815"
-  integrity sha512-Z91k5b/JVTpR/7czX6JqiJ9MYC1g/9PZraYD1xYKdfvjstX9WFCOPksUwp4GKBo1wImLxlEHqWT/wJoqqTzqxg==
+react-micro-frontend-app-example@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-micro-frontend-app-example/-/react-micro-frontend-app-example-1.1.1.tgz#198f16aa3bfc3b349dcc52d6c4df56df4a4e0fc2"
+  integrity sha512-4569VIuOTGdlpCZ9E1oLmUAx4NhECPocfCIIOuSLRaXHgN1zROqKC4jnbDJp5czv/pFYE4JgG79pQXhmyduk8g==
 
 react-micro-frontend-framework@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/react-micro-frontend-framework/-/react-micro-frontend-framework-2.3.0.tgz#1c07ed926a513b6763281d8a147a37f5a60e55b4"
   integrity sha512-rzZZ8H5cSOX/2AEbScx/0GYZn1XuOOZtcgqZadOmJG3K7wPdgS5XZbZM8+WM8C/qiM2ZtaIWtM7XIgYt91CP7w==
 
-react-micro-frontend-scripts@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/react-micro-frontend-scripts/-/react-micro-frontend-scripts-2.5.0.tgz#c4b6a4d1ddf53460f30b536119024a03ecee4887"
-  integrity sha512-bN0XYlLrU47VPhNv5KonF10ayt+Rc8GIo16rQ5YHTYonWc5/nCdqIEr9vlhfUKj8bD8D6kt6xUnWWLKckY2w9A==
+react-micro-frontend-scripts@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-micro-frontend-scripts/-/react-micro-frontend-scripts-2.6.0.tgz#5052285cc8959e5305d3f9ab03f9e2c4faac6c6e"
+  integrity sha512-vPJPv3Nf+TXHx2P2Z5xUMayKaY5KuLgplovYX+a9Abx1gKcC349PeMckF3ZvBYojOOoIkc0BzGzDRODoI8lskQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^3.3.0"
     "@typescript-eslint/parser" "^3.3.0"
@@ -6187,6 +6192,8 @@ react-micro-frontend-scripts@^2.5.0:
     postcss-safe-parser "^4.0.2"
     react-dev-utils "^10.2.1"
     resolve-url-loader "^3.1.1"
+    sass "^1.26.10"
+    sass-loader "^9.0.2"
     style-loader "^1.2.1"
     tcp-port-used "^1.0.1"
     terser-webpack-plugin "^3.0.6"
@@ -6582,6 +6589,24 @@ sanitize.css@*, sanitize.css@^11.0.1:
   version "11.0.1"
   resolved "https://registry.npm.taobao.org/sanitize.css/download/sanitize.css-11.0.1.tgz#e275e5e81a671adc34a8d36efd4182df0d5d4b93"
   integrity sha1-4nXl6BpnGtw0qNNu/UGC3w1dS5M=
+
+sass-loader@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.2.tgz#847c9b4c95328ddc8c7d35cf28c9d6e54e59a90b"
+  integrity sha512-nphcum3jNI442njnrZ5wJgSNX5lfEOHOKHCLf+PrTIaleploKqAMUuT9CVKjf+lyi6c2MCGPHh1vb9nGsjnZJA==
+  dependencies:
+    klona "^1.1.1"
+    loader-utils "^2.0.0"
+    neo-async "^2.6.1"
+    schema-utils "^2.7.0"
+    semver "^7.3.2"
+
+sass@^1.26.10:
+  version "1.26.10"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.26.10.tgz#851d126021cdc93decbf201d1eca2a20ee434760"
+  integrity sha512-bzN0uvmzfsTvjz0qwccN1sPm2HxxpNI/Xa+7PlUEMS+nQvbyuEK7Y0qFqxlPHhiNHb1Ze8WQJtU31olMObkAMw==
+  dependencies:
+    chokidar ">=2.0.0 <4.0.0"
 
 sax@~1.2.4:
   version "1.2.4"

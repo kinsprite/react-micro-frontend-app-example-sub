@@ -10,7 +10,7 @@ function start() {
   // process.env.REACT_MICRO_FRONTEND_SHORT = 'rmf';
   // process.env.SPLIT_CHUNKS = 'true';
   // process.env.RUNTIME_CHUNK = 'true';
-  process.env.POSTCSS_PRESET_ENV_STAGE = '1'; // default '3'
+  process.env.POSTCSS_PRESET_ENV_STAGE = '3'; // default '3'
 
   scripts.runWebpack(scripts.envDevelopment, (config) => {
     const newConfig = scripts.helper.webpackConfigCallback(config);
