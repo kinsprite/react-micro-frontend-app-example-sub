@@ -23,14 +23,11 @@ const Counter : React.FC<any> = ({
     {' '}
     times
     <button type="button" className={styles.btn} onClick={onIncrement}>+</button>
-    {' '}
     <button type="button" className={styles.btn} onClick={onDecrement}>-</button>
-    {' '}
-    <button type="button" className={styles.btn} onClick={onIncrementIfOdd}>Increment if odd</button>
-    {' '}
-    <button type="button" className={styles.btn} onClick={onIncrementAsync}>Increment async</button>
-    <button type="button" className={styles.btn} onClick={onIncrementThunk}>Increment thunk</button>
-    <button type="button" className={styles.btn} onClick={onIncrementEpic}>Increment Epic (Both)</button>
+    <button type="button" className={`${styles.btn} ${styles.hidden}`} onClick={onIncrementIfOdd}>Increment if odd</button>
+    <button type="button" className={`${styles.btn} ${styles.hidden}`} onClick={onIncrementAsync}>Increment async</button>
+    <button type="button" className={`${styles.btn} ${styles.hidden}`} onClick={onIncrementThunk}>Increment thunk</button>
+    <button type="button" className={styles.btn} onClick={onIncrementEpic}>Epic (Both)</button>
   </p>
 );
 
